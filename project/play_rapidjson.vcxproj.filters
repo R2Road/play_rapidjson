@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{1cd71849-42fd-4beb-8c36-ee216acfc014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external">
+      <UniqueIdentifier>{99a45303-e98b-4377-b5e2-06cecfcc1849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\rapidjson">
+      <UniqueIdentifier>{91305047-c6be-4e61-adeb-9cdedc80260f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\r2tm">
+      <UniqueIdentifier>{332270fb-7af5-4a37-a62b-23bc3e6c6758}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\menu_root.cpp" />
+    <ClCompile Include="external\r2tm\r2tm_CacheCleaner.cpp">
+      <Filter>external\r2tm</Filter>
+    </ClCompile>
+    <ClCompile Include="external\r2tm\r2tm_Director.cpp">
+      <Filter>external\r2tm</Filter>
+    </ClCompile>
+    <ClCompile Include="external\r2tm\r2tm_MenuProcessor.cpp">
+      <Filter>external\r2tm</Filter>
+    </ClCompile>
+    <ClCompile Include="external\r2tm\r2tm_PrintBinary.cpp">
+      <Filter>external\r2tm</Filter>
+    </ClCompile>
+    <ClCompile Include="external\r2tm\r2tm_PrintFile.cpp">
+      <Filter>external\r2tm</Filter>
+    </ClCompile>
+    <ClCompile Include="external\r2tm\r2tm_StopWatch.cpp">
+      <Filter>external\r2tm</Filter>
+    </ClCompile>
+    <ClCompile Include="external\r2tm\r2tm_WindowsUtility.cpp">
+      <Filter>external\r2tm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\menu_rapidjson.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test\test_rapidjson.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\menu_root.h" />
+    <ClInclude Include="external\rapidjson\allocators.h">
+      <Filter>external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="external\rapidjson\cursorstreamwrapper.h">
+      <Filter>external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="external\rapidjson\document.h">
+      <Filter>external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="external\rapidjson\encodedstream.h">
+      <Filter>external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="external\rapidjson\encodings.h">
+      <Filter>external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="external\rapidjson\filereadstream.h">
+      <Filter>external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="external\rapidjson\filewritestream.h">
+      <Filter>external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="external\rapidjson\fwd.h">
+      <Filter>external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="external\rapidjson\istreamwrapper.h">
+      <Filter>external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="external\rapidjson\memorybuffer.h">
+      <Filter>external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="external\rapidjson\memorystream.h">
+      <Filter>external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="external\rapidjson\ostreamwrapper.h">
+      <Filter>external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="external\rapidjson\pointer.h">
+      <Filter>external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="external\rapidjson\prettywriter.h">
+      <Filter>external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="external\rapidjson\rapidjson.h">
+      <Filter>external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="external\rapidjson\reader.h">
+      <Filter>external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="external\rapidjson\schema.h">
+      <Filter>external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="external\rapidjson\stream.h">
+      <Filter>external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="external\rapidjson\stringbuffer.h">
+      <Filter>external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="external\rapidjson\uri.h">
+      <Filter>external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="external\rapidjson\writer.h">
+      <Filter>external\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="external\r2tm\r2tm_CacheCleaner.h">
+      <Filter>external\r2tm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\r2tm\r2tm_Color.h">
+      <Filter>external\r2tm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\r2tm\r2tm_ColorModifier.h">
+      <Filter>external\r2tm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\r2tm\r2tm_Director.h">
+      <Filter>external\r2tm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\r2tm\r2tm_iItem.h">
+      <Filter>external\r2tm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\r2tm\r2tm_iMenu.h">
+      <Filter>external\r2tm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\r2tm\r2tm_Inspector.h">
+      <Filter>external\r2tm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\r2tm\r2tm_MenuConstant.h">
+      <Filter>external\r2tm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\r2tm\r2tm_MenuProcessor.h">
+      <Filter>external\r2tm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\r2tm\r2tm_ostream.h">
+      <Filter>external\r2tm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\r2tm\r2tm_PrintBinary.h">
+      <Filter>external\r2tm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\r2tm\r2tm_PrintFile.h">
+      <Filter>external\r2tm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\r2tm\r2tm_StopWatch.h">
+      <Filter>external\r2tm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\r2tm\r2tm_VersionInfo.h">
+      <Filter>external\r2tm</Filter>
+    </ClInclude>
+    <ClInclude Include="external\r2tm\r2tm_WindowsUtility.h">
+      <Filter>external\r2tm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\menu_rapidjson.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="src\test\test_rapidjson.h">
+      <Filter>test</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
