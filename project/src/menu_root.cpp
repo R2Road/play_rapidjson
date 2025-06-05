@@ -37,13 +37,6 @@ r2tm::WriteFunctionT Menu_Root::GetWriteFunction() const
 
 
 
-		mp->AddItem(
-			27
-			, []()->const char* { return "Exit"; }
-			, []()->r2tm::eDoLeaveAction
-			{
-				return r2tm::eDoLeaveAction::Exit;
-			}
-		);
+		mp->AddExit( 27 );
 	};
 }
